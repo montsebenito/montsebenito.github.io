@@ -10,7 +10,7 @@ feature_row:
   - image_path: /assets/images/logo-olist.png
     alt: "How to improve a Marketplace?"
     title: "How would you improve a Marketplace?(HINT: Data)"
-    excerpt: "Are there any products/business segments doing particularly well… or particularly badly? Are Olist new acquired and overall sellers finding what they are looking for? What are the characteristics of the top sellers? Are they happy? What channels are bringing in more top selling sellers?"
+    excerpt: "Are there any products/business segments doing particularly well… or particularly badly? Are Olist new acquired and overall sellers finding what they are looking for? What are the characteristics of the top sellers? What channels are bringing in more top selling sellers?"
     url: /marketplacesummary/
     btn_label: "Read More"
     btn_class: "btn--inverse"
