@@ -112,7 +112,7 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:montse.benito@gmail.com"
     - label: "Linkedin"
-      icon: "fas fa-fw fa-linkedin"
+      icon: "fas fa-fw fa-linkedin-square"
       url: "https://www.linkedin.com/in/montsebenitovillafranca"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
