@@ -12,7 +12,7 @@ sidebar:
     image_alt: #"logo"
     text: "This case study is the first of a series, whose goal is reverse-engineering the steps that led the product data team to implement the feature. 
 <ul><li> Why did they want to test that feature in the first place? What was the data-driven hypothesis behind?</li>
-  <li>Which metric(s) did they choose for the test?</li><li>How was the test designed?</li></ul>
+  <li>Which metric(s) did they choose for the test?</li><li>How was the test designed?</li></ul>"
     
 ---
 
