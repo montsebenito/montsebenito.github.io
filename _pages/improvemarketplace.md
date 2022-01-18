@@ -1,20 +1,27 @@
 ---
-layout: splash
+layout: collection
 permalink: /improvemarketplace/
 #excerpt: If you had to improve the Olist marketplace, what would you do? (HINT: Data)"
 classes: wide
 
 header:
   image: /assets/images/market1.jpg
-  teaser: #assets/images/unsplash-gallery-image-1-th.jpg
-
+  teaser: "[New Old Stock](https://nos.twnsnd.co/)"
+  caption: "[New Old Stock](https://nos.twnsnd.co/)"
 sidebar:
   - title: "Project Overview"
     image: #http://placehold.it/350x250
     image_alt: #"logo"
     text: "Segmented sellers based on sale/no_sale as well as on avg LTV (rmse ~BRL289) to find what characteristics makes a top seller, following CRISP-DM process model."
   - title: "Data Understanding:" 
-    text: "Explored and Wranged data from 9 datasets with +100k observations (one of the datasets have +1M observations!) and max 15 variables. Wordclouds of good/bad/neutral scored reviews"
+    text: "Explored and Wranged data from 9 datasets with +100k observations (one of the datasets have +1M observations!) and max 15 variables."
+  - title: "Data Preparation:" 
+    text: "Engineered Features and cleaned city names. Dealt with missing values and encoded categorical data."
+  - title: "Data Modeling:" 
+    text: "Optimized Random Forest Regressor and Classifier using GridCV."
+  - title: "Results Evaluation:"
+    text: "Extracted actionable insights from model with Partial Dependant Plots."
+    
     
 ---
 
@@ -26,10 +33,6 @@ sidebar:
 #### _If you had to improve the Olist marketplace, what would you do? (HINT: Data)_
 
 
-<img src='https://github.com/montsebenito/montsebenito.github.io/blob/main/_pics/market1.jpg?raw=true'
-width="450">
-
---- pic source: [New Old Stock](https://nos.twnsnd.co/)
  
  
 [Olist](https://olist.com/pt-br/), a Brazilian e-commerce marketplace integrator, has raised more than [$126 million](https://techcrunch.com/2021/04/15/goldman-sachs-leads-23m-in-funding-for-brazilian-e-commerce-startup-olist/) since its 2015 inception. Founded with the mission of “empowering trade”, it connects +100k merchants (as of December, 2021) from all over Brazil to different marketplaces with a single contract and a drop-shipping model to send products directly from stores to clients using logistics partners.
