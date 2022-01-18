@@ -10,27 +10,22 @@ sidebar:
   - title: "Project Overview"
     image: #http://placehold.it/350x250
     image_alt: #"logo"
-    text: "Segmented sellers based on sale/no_sale as well as on avg LTV (rmse ~BRL289) to find what characteristics makes a top seller, following CRISP-DM process model."
-  - title: "Data Understanding:" 
-    text: "Explored and Wranged data from 9 datasets with +100k observations (one of the datasets have +1M observations!) and max 15 variables. Wordclouds of good/bad/neutral 
-      scored reviews"
+    text: "This case study is the first of a series, whose goal is reverse-engineering the steps that led the product data team to implement the feature. 
+<ul><li> Why did they want to test that feature in the first place? What was the data-driven hypothesis behind?</li>
+  <li>Which metric(s) did they choose for the test?</li><li>How was the test designed?</li></ul>
     
 ---
 
 
 
-# New feature case study (I): 
-
-![Coinbaselogo](https://images.ctfassets.net/q5ulk4bp65r7/3TBS4oVkD1ghowTqVQJlqj/2dfd4ea3b623a7c0d8deb2ff445dee9e/Consumer_Wordmark.svg)
 
 ### [EARN CRYPTO WHILE LEARNING ABOUT CRYPTO](https://www.coinbase.com/earn) with coinbase.
+<p>This new feature offers the opportunity to discover how specific cryptocurrencies work - via 2-minute courses offered in both their web and app platforms- while getting a bit of each crypto to taste the thrill. </p>
 
-<p> _“Our mission is to increase economic freedom in the world._ _We started in 2012 with the radical idea that anyone, anywhere, should be able to easily and securely send and receive Bitcoin._ 
-_Today, we offer a trusted and easy-to-use platform for accessing the broader cryptoeconomy.”_<p>
-
-
-<p>Because of Coinbase’s ambitious vision & mission of disrupting the financial system as we know it, their North Star is probably highly focused on growth, with a higher weight on increasing new users. 
+<p>Because of Coinbase’s ambitious vision & mission of disrupting the financial system as we know it, the company's North Star is probably highly focused on growth, with a higher weight on increasing new users. 
 <p>
+ 
+<blockquote> “Our mission is to increase economic freedom in the world. We started in 2012 with the radical idea that anyone, anywhere, should be able to easily and securely send and receive Bitcoin.Today, we offer a trusted and easy-to-use platform for accessing the broader cryptoeconomy.” </blockquote>
 
 #### WHY DID THEY WANT TO TEST THAT FEATURE IN THE FIRST PLACE? WHAT WAS THE DATA DRIVEN HYPOTHESIS THAT LEAD THE PRODUCT TEAM TO THINK THIS FEATURE WAS A GOOD IDEA TO TEST? WHICH DATA WOULD SUPPORT THE HYPOTHESIS?
 
