@@ -23,13 +23,11 @@ sidebar:
 
 ### [EARN CRYPTO WHILE LEARNING ABOUT CRYPTO](https://www.coinbase.com/earn) with coinbase.
 
-
-<blockquote>“Our mission is to increase economic freedom in the world. We started in 2012 with the radical idea that anyone, anywhere, should be able to easily and securely send and receive Bitcoin. Today, we offer a trusted and easy-to-use platform for accessing the broader cryptoeconomy.”</blockquote>
-
+This new feature offers the opportunity to discover how specific cryptocurrencies work - via 2-minute courses offered in both their web and app platforms- while getting a bit of each crypto to taste the thrill.
 
 Because of Coinbase’s ambitious vision & mission of disrupting the financial system as we know it, their North Star is probably highly focused on growth, with a higher weight on increasing new users. 
 
-.
+<blockquote>“Our mission is to increase economic freedom in the world. We started in 2012 with the radical idea that anyone, anywhere, should be able to easily and securely send and receive Bitcoin. Today, we offer a trusted and easy-to-use platform for accessing the broader cryptoeconomy.”</blockquote>
 
 #### WHY DID THEY WANT TO TEST THAT FEATURE IN THE FIRST PLACE? WHAT WAS THE DATA DRIVEN HYPOTHESIS THAT LEAD THE PRODUCT TEAM TO THINK THIS FEATURE WAS A GOOD IDEA TO TEST? WHICH DATA WOULD SUPPORT THE HYPOTHESIS?
 
