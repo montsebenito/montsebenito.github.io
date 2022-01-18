@@ -12,11 +12,12 @@ sidebar:
     image: #http://placehold.it/350x250
     image_alt: #"logo"
     text: "This case study is the first of a series, whose goal is reverse-engineering the steps that led the product data team to implement the feature. 
-<ul><li> Why did they want to test that feature in the first place? What was the data-driven hypothesis behind?</li>
-  <li>Which metric(s) did they choose for the test?</li><li>How was the test designed?</li></ul>"
+<ul>
+  <li>Why did they want to test that feature in the first place?</li> <li>What was the data-driven hypothesis behind?</li>
+  <li>Which metric(s) did they choose for the test?</li> <li>How was the test designed?</li> 
+</ul>"
     
 ---
-
 
 
 
@@ -24,18 +25,18 @@ sidebar:
 <p>This new feature offers the opportunity to discover how specific cryptocurrencies work - via 2-minute courses offered in both their web and app platforms- while getting a bit of each crypto to taste the thrill. </p>
 
 <p>Because of Coinbase’s ambitious vision & mission of disrupting the financial system as we know it, the company's North Star is probably highly focused on growth, with a higher weight on increasing new users. 
-<p>
+</p>
  
 <blockquote> “Our mission is to increase economic freedom in the world. We started in 2012 with the radical idea that anyone, anywhere, should be able to easily and securely send and receive Bitcoin.Today, we offer a trusted and easy-to-use platform for accessing the broader cryptoeconomy.” </blockquote>
 
-#### WHY DID THEY WANT TO TEST THAT FEATURE IN THE FIRST PLACE? WHAT WAS THE DATA DRIVEN HYPOTHESIS THAT LEAD THE PRODUCT TEAM TO THINK THIS FEATURE WAS A GOOD IDEA TO TEST? WHICH DATA WOULD SUPPORT THE HYPOTHESIS?
+<h2> WHY DID THEY WANT TO TEST THAT FEATURE IN THE FIRST PLACE? WHAT WAS THE DATA DRIVEN HYPOTHESIS THAT LEAD THE PRODUCT TEAM TO THINK THIS FEATURE WAS A GOOD IDEA TO TEST? WHICH DATA WOULD SUPPORT THE HYPOTHESIS? </h2>
 
-Two groups of new users were compared: those who bought cryptos over X weeks after signing up in Coinbase (label churn 0) vs those who did not (label churn 1).  Using demographics and behavior user data, along with a decision tree classifier model, the data team identified a segment of “super-low power” users who only bought > 30$ and just spent >15 active minutes browsing the app after sign up, but keep trading small amount of cryptos over the X weeks without “churning”. In addition, these customers were also more prone to send out more app-referral invitations than the ones that eventually churned. 
+<p>Two groups of new users were compared: those who bought cryptos over X weeks after signing up in Coinbase (label churn 0) vs those who did not (label churn 1).  Using demographics and behavior user data, along with a decision tree classifier model, the data team identified a segment of “super-low power” users who only bought > 30$ and just spent >15 active minutes browsing the app after sign up, but keep trading small amount of cryptos over the X weeks without “churning”. In addition, these customers were also more prone to send out more app-referral invitations than the ones that eventually churned. </p>
 
-So the hypothesis to test is: if Coinbase offers the chance to taste the thrill of trading/buying cryptos by earning up around 30$-valued coins just by taking a few 2-minute courses offered in both their web and app platforms, users will love the experience, the product and will purchase more coins. 
-Expected results (before the test) are:
-
-1. **Overall activation rate will go up**. Defined as ratio between users who buy cryptocurrencies) divided for all users that signed up (i.e. downloaded the app & provided identification proof) even though they didn’t buy yet. 
+<p>So the hypothesis to test is: if Coinbase offers the chance to taste the thrill of trading/buying cryptos by earning up around 30$-valued coins just by taking a few 2-minute courses offered in both their web and app platforms, users will love the experience, the product and will purchase more coins. 
+Expected results (before the test) are:</p>
+<ol start=1>
+<li> **Overall activation rate will go up**. Defined as ratio between users who buy cryptocurrencies) divided for all users that signed up (i.e. downloaded the app & provided identification proof) even though they didn’t buy yet. 
 We’re not taking into account if users have provided bank account info or not (as users who ‘earn’ the coins will eventually provide this if they want to cash the free coins) nor other activation actions such as selling coins for the same reason.
 We’ll use activation rate as our **main metric**
 
