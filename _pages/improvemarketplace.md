@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: splash
 permalink: /improvemarketplace/
 #excerpt: If you had to improve the Olist marketplace, what would you do? (HINT: Data)"
 classes: wide
