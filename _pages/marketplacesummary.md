@@ -31,4 +31,3 @@ The anonymised datasets used in this case study were generously provided by Olis
 
 Read this non-tech friendly [post](https://montsebenito.github.io/improvemarketplace/) or deep-dive into this project' [Github repo](https://github.com/montsebenito/How_to_Improve_a_Marketplace)
 
-{% include sidebar}
