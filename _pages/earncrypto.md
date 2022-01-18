@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: splash
 permalink: /earncrypto/
 title: "New Feature Case Study (I)"
 
