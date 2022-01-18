@@ -24,13 +24,6 @@ sidebar:
 # How to improve a Marketplace?
 
 #### _If you had to improve the Olist marketplace, what would you do? (HINT: Data)_
-
-
-<img src='https://github.com/montsebenito/montsebenito.github.io/blob/main/_pics/market1.jpg?raw=true'
-width="450">
-
---- pic source: [New Old Stock](https://nos.twnsnd.co/)
- 
  
 [Olist](https://olist.com/pt-br/), a Brazilian e-commerce marketplace integrator, has raised more than [$126 million](https://techcrunch.com/2021/04/15/goldman-sachs-leads-23m-in-funding-for-brazilian-e-commerce-startup-olist/) since its 2015 inception. Founded with the mission of “empowering trade”, it connects +100k merchants (as of December, 2021) from all over Brazil to different marketplaces with a single contract and a drop-shipping model to send products directly from stores to clients using logistics partners.
 
@@ -176,14 +169,6 @@ height="350">
 - Analyze data related to purchasers' searches and use of filters (if available) to determine if there is any issue with the quality, quantity or price offered by the sellers, plus further recommendations.
 
 - Increase Basket size. Olist recommends the sellers to bundle their products if possible, as sellers pay a fee for each one pf the products. To help them do this as efficient as possible (so helping the sellers increasing their profit per transaction) I'll propose to build a **recommender system** to help them understand what products are more probable to be sold together.
-.
 
 ___________________________________________________________________________________________________
 **And you? How do you improve a marketplace?** Stay tuned for updates & next steps! You can dive deeper in this project checking this [repo](https://github.com/montsebenito/How_to_Improve_a_Marketplace) 
-
-Any comment or improvement suggestion, please, [connect with me](https://www.linkedin.com/in/montsebenitovillafranca/)
-
-<img src='https://github.com/montsebenito/montsebenito.github.io/blob/main/_pics/market2.jpg?raw=true'
-width="500">
-
---- pic source: [New Old Stock](https://nos.twnsnd.co/)
