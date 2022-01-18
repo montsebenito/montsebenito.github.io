@@ -1,6 +1,7 @@
 ---
-layout: splash
+layout: collection
 permalink: /earncrypto/
+title: "New Feature Case Study (I)"
 
 header:
   image: /assets/images/Coinbase_7.jpg
