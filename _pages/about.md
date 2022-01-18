@@ -1,7 +1,7 @@
 ---
 permalink: /about/
 title: "Hi!"
-#layout: home
+layout: single
 classes: wide
 
 header: 
