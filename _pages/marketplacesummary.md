@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: collection
 permalink: /marketplacesummary/
 title: Marketplace
 #excerpt: If you had to improve the Olist marketplace, what would you do? (HINT: Data)"
