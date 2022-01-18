@@ -21,38 +21,39 @@ sidebar:
 ---
 
 
-
 ### [EARN CRYPTO WHILE LEARNING ABOUT CRYPTO](https://www.coinbase.com/earn) with coinbase.
-<p>This new feature offers the opportunity to discover how specific cryptocurrencies work - via 2-minute courses offered in both their web and app platforms- while getting a bit of each crypto to taste the thrill. </p>
 
-<p>Because of Coinbase’s ambitious vision & mission of disrupting the financial system as we know it, the company's North Star is probably highly focused on growth, with a higher weight on increasing new users. 
-</p>
- 
-<blockquote> “Our mission is to increase economic freedom in the world. We started in 2012 with the radical idea that anyone, anywhere, should be able to easily and securely send and receive Bitcoin.Today, we offer a trusted and easy-to-use platform for accessing the broader cryptoeconomy.” </blockquote>
 
-<h3> WHY DID THEY WANT TO TEST THAT FEATURE IN THE FIRST PLACE? WHAT WAS THE DATA DRIVEN HYPOTHESIS THAT LEAD THE PRODUCT TEAM TO THINK THIS FEATURE WAS A GOOD IDEA TO TEST? WHICH DATA WOULD SUPPORT THE HYPOTHESIS? </h3>
+<blockquote>“Our mission is to increase economic freedom in the world. We started in 2012 with the radical idea that anyone, anywhere, should be able to easily and securely send and receive Bitcoin. Today, we offer a trusted and easy-to-use platform for accessing the broader cryptoeconomy.”</blockquote>
 
-<p>Two groups of new users were compared: those who bought cryptos over X weeks after signing up in Coinbase (label churn 0) vs those who did not (label churn 1).  Using demographics and behavior user data, along with a decision tree classifier model, the data team identified a segment of “super-low power” users who only bought > 30$ and just spent >15 active minutes browsing the app after sign up, but keep trading small amount of cryptos over the X weeks without “churning”. In addition, these customers were also more prone to send out more app-referral invitations than the ones that eventually churned. </p>
 
-<p>So the hypothesis to test is: if Coinbase offers the chance to taste the thrill of trading/buying cryptos by earning up around 30$-valued coins just by taking a few 2-minute courses offered in both their web and app platforms, users will love the experience, the product and will purchase more coins. 
-Expected results (before the test) are:</p>
-<ol start=1>
-<li> **Overall activation rate will go up**. Defined as ratio between users who buy cryptocurrencies) divided for all users that signed up (i.e. downloaded the app & provided identification proof) even though they didn’t buy yet. 
+Because of Coinbase’s ambitious vision & mission of disrupting the financial system as we know it, their North Star is probably highly focused on growth, with a higher weight on increasing new users. 
+
+.
+
+#### WHY DID THEY WANT TO TEST THAT FEATURE IN THE FIRST PLACE? WHAT WAS THE DATA DRIVEN HYPOTHESIS THAT LEAD THE PRODUCT TEAM TO THINK THIS FEATURE WAS A GOOD IDEA TO TEST? WHICH DATA WOULD SUPPORT THE HYPOTHESIS?
+
+Two groups of new users were compared: those who bought cryptos over X weeks after signing up in Coinbase (label churn 0) vs those who did not (label churn 1).  Using demographics and behavior user data, along with a decision tree classifier model, the data team identified a segment of “super-low power” users who only bought > 30$ and just spent >15 active minutes browsing the app after sign up, but keep trading small amount of cryptos over the X weeks without “churning”. In addition, these customers were also more prone to send out more app-referral invitations than the ones that eventually churned. 
+
+So the hypothesis to test is: if Coinbase offers the chance to taste the thrill of trading/buying cryptos by earning up around 30$-valued coins just by taking a few 2-minute courses offered in both their web and app platforms, users will love the experience, the product and will purchase more coins. 
+Expected results (before the test) are:
+
+1. **Overall activation rate will go up**. Defined as ratio between users who buy cryptocurrencies) divided for all users that signed up (i.e. downloaded the app & provided identification proof) even though they didn’t buy yet. 
 We’re not taking into account if users have provided bank account info or not (as users who ‘earn’ the coins will eventually provide this if they want to cash the free coins) nor other activation actions such as selling coins for the same reason.
-  We’ll use activation rate as our **main metric**</li>
+We’ll use activation rate as our **main metric**
 
-<li> This is a change that **removes friction** and potentially will break some users’ barriers to buy coins/use Coinbase. These mini-courses force users to spend some time using the App: **increasing familiarity** with it, learning a bit on some blockchain uses. It is widely known that people tend to invest in assets they understand vs unknown.</li> 
+2. This is a change that **removes friction** and potentially will break some users’ barriers to buy coins/use Coinbase. These mini-courses force users to spend some time using the App: **increasing familiarity** with it, learning a bit on some blockchain uses. It is widely known that people tend to invest in assets they understand vs unknown. 
 
-<li> **#referrals/new user will increase**. Coinbase makes this easy by having a parallel referral program of 10$ for referee and referral, and this extra $30 will support the referral further.</li>
+3. **#referrals/new user will increase**. Coinbase makes this easy by having a parallel referral program of 10$ for referee and referral, and this extra $30 will support the referral further.
 
-<li> It is unlikely that power users bother to take advantage of this promotion for such a small amount, especially if we compare it with their potential gains (or losses) in a few minutes. It is also unlikely existing customers are interested in it.</li>
+4. It is unlikely that power users bother to take advantage of this promotion for such a small amount, especially if we compare it with their potential gains (or losses) in a few minutes. It is also unlikely existing customers are interested in it.
 
-<li> Even though it's extremely difficult to forecast cryptocurrencies' value due to their highly volatile behavior, it’s supposed that the long term value of a crypto is related to the amount of people who trust it.  If Coinbase itself somehow promotes these specific coins it is likely their value will go up as well as this specific segment user satisfaction. **Increasing engagement defined as total $ invested in coins/user.**</li>
+5. Even though it's extremely difficult to forecast cryptocurrencies' value due to their highly volatile behavior, it’s supposed that the long term value of a crypto is related to the amount of people who trust it.  If Coinbase itself somehow promotes these specific coins it is likely their value will go up as well as this specific segment user satisfaction. **Increasing engagement defined as total $ invested in coins/user.**
 
-<li>Said all the above, one major concern: May this feature **cannibalize** avg amount spent for these “super low power” traders? Why pay with your own money if you have some coins to play with? We have to keep in mind that Coinbase business model is centered around the fees it charges for trading cryptocurrencies.</li>
+6. Said all the above, one major concern: May this feature **cannibalize** avg amount spent for these “super low power” traders? Why pay with your own money if you have some coins to play with? We have to keep in mind that Coinbase business model is centered around the fees it charges for trading cryptocurrencies.
 
 
-  <h3> WHICH METRIC(S) DID THEY CHOOSE FOR THE TEST?</h3>
+#### WHICH METRIC(S) DID THEY CHOOSE FOR THE TEST?
 
 ##### Driver Metrics:
 
@@ -67,7 +68,7 @@ We’re not taking into account if users have provided bank account info or not 
 So, we will fail to reject the null hypothesis if our sample won’t provide enough evidence that activation rate and #requests/users are the same for control and test groups and we accept the alternative hypothesis that is certainly a significant effect in these metrics between the control and the treatment group.
 
 
-  <h3>HOW WAS THE TEST DESIGNED?</h3>
+#### HOW WAS THE TEST DESIGNED?
 
 ##### Target Population: 
 
