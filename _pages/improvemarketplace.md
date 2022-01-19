@@ -6,7 +6,7 @@ classes: wide
 
 header:
   image: /assets/images/market1.jpg
-  teaser: #assets/images/unsplash-gallery-image-1-th.jpg
+  caption:  "[New Old Stock](https://nos.twnsnd.co/)"
 
 sidebar:
   - title: "Project Overview"
