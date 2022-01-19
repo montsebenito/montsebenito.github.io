@@ -6,7 +6,7 @@ title: Marketplace
 
 header:
   image: /assets/images/market2.jpg
-  teaser: #assets/images/unsplash-gallery-image-1-th.jpg
+  caption:  "Source: [New Old Stock](https://nos.twnsnd.co/)"
 
 sidebar:
   - title: "Project Overview"
