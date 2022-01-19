@@ -6,7 +6,7 @@ classes: wide
 
 header:
   image: /assets/images/market1.jpg
-  caption:  "[New Old Stock](https://nos.twnsnd.co/)"
+  caption:  "Source: [New Old Stock](https://nos.twnsnd.co/)"
 
 sidebar:
   - title: "Project Overview"
