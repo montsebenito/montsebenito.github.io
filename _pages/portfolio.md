@@ -22,6 +22,13 @@ How was the test designed?."
     url: /earncrypto/
     btn_label: "Read More"
     btn_class: "btn--inverse"
+  - image_path: /assets/images/ElonMuskpic.jpg
+    alt: "Elon Musk, Twitter and Bitcoin price"
+    title: "Elon Musk, Twitter and Bitcoin price"
+    excerpt: "Analysis of the so-called 'Elon Effect': is there a relationship between the content of Elon Musk tweets and Bitcoin price behaviour?"
+    url: /elonmusk/
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
 
 ---
 
