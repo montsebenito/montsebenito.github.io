@@ -13,9 +13,9 @@ header:
 
 ### What's the real influence of Elon Musk' tweets over the crypto ecosystem? 
 
-This project expands the so called **'Elon Effect'** and analyses the viability of predicting Bitcoin price fluctuations from the content of daily Elon Musk tweets. You can dive deeper into this project by checking this [repo.](https://github.com/montsebenito/Elon_Effect)
-
 Lot has been said ([here](https://www.wsj.com/video/series/wsj-explains/elon-musks-power-over-crypto-explained/D1C22EF9-4279-409E-8AE3-DE3C995E6845), [here](https://www.bloomberg.com/news/videos/2021-07-22/elon-musk-s-influence-on-crypto-video), and [here](https://www.coindesk.com/layer2/culture-week/2021/12/14/the-elon-effect-how-musks-tweets-move-crypto-markets/),also [here](https://www.vox.com/recode/2021/5/18/22441831/elon-musk-bitcoin-dogecoin-crypto-prices-tesla)) about the influence of Elon Musk' tweets over the cryptocurrency investors and ecosystem.
+
+This project expands the so called **'Elon Effect'** and analyses the viability of predicting Bitcoin price fluctuations from the content of daily Elon Musk tweets. You can dive deeper into this project by checking this [repo.](https://github.com/montsebenito/Elon_Effect)
 
 <img src="https://raw.githubusercontent.com/montsebenito/montsebenito.github.io/master/assets/images/oh-hi-elon-tweet.jpg"
 width="450" title="https://www.profgalloway.com/elon/">
