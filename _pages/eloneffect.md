@@ -24,7 +24,7 @@ Regarding Bitcoin, the specific cryptocurrency this study focus on, it is a stra
 
 #### Data Collection:
 
-The data used in this case study is publicly available in Twitter (collected via tweepy) and yahoo finance platforms (data-reader pandas library). Because this method only allows to fetch a few hundred of tweets per batch, this project uses this [data](https://www.kaggle.com/datasets/neelgajare/all-elon-musk-tweets-2022-updated) from Kaggle containing several years of Elon´s tweets is used. Training data is compressed between January-2019 and January-2022 (7278 tweets and replies) and test data from January-2022 to February-2022 (238 tweets). A daily timeframe has been used in order to better isolate the effect of the Tweet on the crypto price. 
+The data used in this case study is publicly available in Twitter (collected via tweepy) and yahoo finance platforms (data-reader pandas library). Because this method only allows to fetch a few hundred of tweets per batch, this project uses [data](https://www.kaggle.com/datasets/neelgajare/all-elon-musk-tweets-2022-updated) from Kaggle containing several years of Elon´s tweets is used. Training data is compressed between January-2019 and January-2022 (7278 tweets and replies) and test data from January-2022 to February-2022 (238 tweets). A daily timeframe has been used in order to better isolate the effect of the Tweet on the crypto price. 
 
 <img src="https://raw.githubusercontent.com/montsebenito/Elon_Effect/main/pics/BitcoinS&P500Price.jpg"
 width="1200">
