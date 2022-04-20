@@ -27,7 +27,7 @@ Regarding Bitcoin, the specific cryptocurrency this study focus on, it is a stra
 The data used in this case study is publicly available in Twitter (collected via tweepy) and yahoo finance platform (data-reader pandas library). Training data is compressed between January-2019 and January-2022 (7278 tweets and replies) and test data from January-2022 to February-2022 (238 tweets). A daily timeframe has been used in order to better isolate the effect of the Tweet on the crypto price. 
 
 <img src="https://raw.githubusercontent.com/montsebenito/Elon_Effect/main/pics/BitcoinPrice.jpg"
-width="450">
+width="750">
  
 #### Data Preprocessing & Modelling: 
 
