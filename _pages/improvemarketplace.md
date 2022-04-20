@@ -30,14 +30,12 @@ sidebar:
 The anonymised datasets used in this case study were generously provided by Olist. Consist of a sample of their real data, with information on +100k orders from 2016 to 2018 as well as +8k Marketing Qualified Leads (MQLs) from potential sellers that requested contact between Jun 2017 and Jun 2018. You can find (and play with!) these datasets [here](https://www.kaggle.com/olistbr/brazilian-ecommerce) and [here](https://www.kaggle.com/olistbr/marketing-funnel-olist/home).
 
 <img src="https://github.com/montsebenito/How_to_Improve_a_Marketplace/blob/main/Olist_pics/Jory0O3.png?raw=true"
-width="450"><img src="https://github.com/montsebenito/How_to_Improve_a_Marketplace/blob/main/Olist_pics/HRhd2Y0.png?raw=true"
-width="450">
+width="600"><img src="https://github.com/montsebenito/How_to_Improve_a_Marketplace/blob/main/Olist_pics/HRhd2Y0.png?raw=true"
+width="600">
 
 --- Olist public data schema. Source: [Kaggle](https://www.kaggle.com/olistbr/brazilian-ecommerce) & [Kaggle](https://www.kaggle.com/olistbr/marketing-funnel-olist/home)
 
-### Marketplaces performance metrics
-
-What does to 'improve' mean, anyway? 
+### What does to 'improve' mean, anyway? Marketplaces performance metrics.
 
 **Growth** is usually the main goal for any team of most successful companies (once product/market fit is achieved). There are two main components to drive growth 1) the ability to acquire new customers (it is pretty much impossible to grow if the user base is not increasing), and 2) the ability to retain current users (it is really hard to grow while losing past users and, certainly, not sustainable in the long run). 
 
@@ -47,19 +45,19 @@ So, a good metric regarding ‘acquiring new users’ could be: new sellers per 
 
 ### Would improving Olist supply or demand significantly increase the transactions volume (& avg GMV)? 
 
-It is often really hard to understand whether a marketplace should focus on improving supply or demand, as they’re so strictly related. A priori, Olist is not supply constrained as they provide sellers access to millions of online purchasers. Said that, supply health does depend on the business casuistry per se, for example company stage (pre-post PMF) Let's perform a descriptive and explanatory analysis to answer the following business questions, that may show the health of some proxies for supply and demand:
+It is often really hard to understand whether a marketplace should focus on improving supply or demand, as they’re so strictly related. A priori, Olist is not supply constrained as they provide sellers access to millions of online purchasers. Said that, supply health does depend on the business casuistry per se, for example company stage (pre-post PMF). Let's perform a descriptive and explanatory analysis to answer the following business questions, that may show the health of some proxies for supply and demand:
 
-**- How is the seller acquisition journey? How long is it?**
+- How is the seller acquisition journey? How long is it?
 
-**- What is the average time it takes to a new merchant (a.k.a seller) to sell for the first time after being acquired?**
+- What is the average time it takes to a new merchant (a.k.a seller) to sell for the first time after being acquired?
 
-**- How are the overall sales? Are there any product category doing particularly well … or particularly badly?** 
+- How are the overall sales? Are there any product category doing particularly well … or particularly badly?
 
-**- What are the characteristics of the top sellers?**
+- What are the characteristics of the top sellers?**
 
 and finally
 
-**- What channels are bringing in more top selling sellers?**
+- What channels are bringing in more top selling sellers?
 
 
 ### Project Approach
@@ -73,7 +71,7 @@ I will analyze the sellers acquisition journey and will segment them based on av
 
 
 <img src='https://github.com/montsebenito/How_to_Improve_a_Marketplace/blob/main/Olist_saved/MainTimelines.png?raw=true'
-height="350">
+height="500">
 
 --- Timelines extracted from the provided raw data
 (Just felt like we needed a colorful Gantt chart right here)
@@ -83,30 +81,21 @@ height="350">
 The journey starts when a potential seller sign-up at a landing page. Organic search lead sign-up volume, followed by paid search, social and an unknown origin from Jul, 2017 to May, 2018.
 
 <img src='https://github.com/montsebenito/How_to_Improve_a_Marketplace/blob/main/Olist_saved/monthlyVolumebychannel.png?raw=true'
-height="350">
+height="500">
 
+After sign-up, they get contacted by one of the Olist 32 Sales development Representative (SDR) to confirm some information and schedule a consultancy with a Sales Representative (SR) (of a total of 22). The SR may close the deal (lead becomes a seller) or lose the deal. Unknown origin maintains a consistent high conversion rate from Jan, 2018.
 
-After sign-up, they get contacted by one of the Olist 32 Sales development Representative (SDR) to confirm some information and schedule a consultancy with a Sales Representative (SR) (of a total of 22). The SR may close the deal (lead becomes a seller) or lose the deal.
-
-<img src='https://github.com/montsebenito/How_to_Improve_a_Marketplace/blob/main/Olist_saved/monthlyCRbychannel.png?raw=true'
-height="250">
-
-
-Unknown origin maintains a consistent high conversion rate from Jan, 2018.
-
-**How long is the seller acquisition journey?** Median length of one month for all origins (except other publicities)
+**How long is the seller acquisition journey?** 
 
 <img src='https://github.com/montsebenito/How_to_Improve_a_Marketplace/blob/main/Olist_saved/SellerAcquisitionlength.png?raw=true'
 height="350">
 
+--Median length of one month for all origins (except other publicities)
+
 ### What is the average time it takes to a new merchant (a.k.a seller) to sell for the first time after being acquired?
 
 <img src='https://github.com/montsebenito/How_to_Improve_a_Marketplace/blob/main/Olist_saved/DayswithOlist.png?raw=true'
-height="350">
-
-<img src='https://github.com/montsebenito/How_to_Improve_a_Marketplace/blob/main/Olist_saved/DaystoSale.png?raw=true'
-height="350">
-
+height="500">
 
 ### How are the overall sales doing? Are there any product category/business segment doing particularly well … or particularly badly?
 
@@ -124,21 +113,6 @@ height="250">
 height="250">
 
 Overall sales: Basket size
-
-The following tables show some aggregates for top and bottom 5 product categories and business segment (acquired between Dec,2017-Aug,2018): 
-
-<img src='https://github.com/montsebenito/How_to_Improve_a_Marketplace/blob/main/Olist_saved/top5_prodcat_table.png.jpg?raw=true'
-height="150">
-
-<img src='https://github.com/montsebenito/How_to_Improve_a_Marketplace/blob/main/Olist_saved/bot5_prodcat_table.png?raw=true'
-height="150">
-
-<img src='https://github.com/montsebenito/How_to_Improve_a_Marketplace/blob/main/Olist_saved/top5_busseg_table.png?raw=true'
-height="150">
-
-<img src='https://github.com/montsebenito/How_to_Improve_a_Marketplace/blob/main/Olist_saved/bot5_busseg_table.png?raw=true'
-height="150">
-
 
 ### What are the characteristics of the top sellers?
 
