@@ -27,12 +27,12 @@ Regarding Bitcoin, the specific cryptocurrency this study focus on, it is a stra
 The data used in this case study is publicly available in Twitter (collected via tweepy) and yahoo finance platforms (data-reader pandas library). Training data is compressed between January-2019 and January-2022 (7278 tweets and replies) and test data from January-2022 to February-2022 (238 tweets). A daily timeframe has been used in order to better isolate the effect of the Tweet on the crypto price. 
 
 <img src="https://raw.githubusercontent.com/montsebenito/Elon_Effect/main/pics/BitcoinS&P500Price.jpg"
-width="800">
+width="1200">
 
 Comparing the value of Bitcoin and S&P500 from January2019 to February2022. Bitcoin is far more volatile than S&P500, but it's growth is far faster.
 
 <img src="https://raw.githubusercontent.com/montsebenito/Elon_Effect/main/pics/DailyTweets.jpg"
-width="800">
+width="1200">
 
 Elon not only leads two revolutionary companies, but he also is a prolific daily Twitter user.
  
@@ -48,7 +48,7 @@ Elon not only leads two revolutionary companies, but he also is a prolific daily
 Word-level language features are used. Bag of Words are useful vector space representations of words used in a Twitter context. By leveraging the huge amount of data available via the Twitter API (Elon most used word in training data, tweet datetime, number of retweets, comments and likes), this approach consists on encoding the subtext context of Tweets into the word embeddings without extensive manual labeling to harnessing for prediction. This is the main difference with much of the current available research studying the relationship between Twitter NLP and the stock market, which finds evidence of this relationship via sentiment classification [2].
 
 <img src="https://raw.githubusercontent.com/montsebenito/Elon_Effect/main/pics/MostTweetedWords.jpg"
-width="800">
+width="1200">
 
 
 #### Insights and next steps
