@@ -50,18 +50,23 @@ Word-level language features are used. Bag of Words are useful vector space repr
 <img src="https://raw.githubusercontent.com/montsebenito/Elon_Effect/main/pics/MostTweetedWords.jpg"
 width="1200">
 
+Three different regression models (Random Forest, Ada Boost and Gradient Boosting) have been evaluated to determine which algorithm will provide the lowest mean absolute error and the most convenient predictions trends. Mean absolute error (MAE) is the best metric for to evaluate the model because it is very useful when the target follows a skewed distribution: outliers will not influence models attempting to optimize on this metric as much as if when the mean squared error. Gradient Boosting Regressor showed the second lowest MAE and its predictions follow a pattern very similar to real data, with the advantage of being offset. This model has been optimized using GridCV, achieving the following results:
+- Metric: MAE	
+- Unoptimized Model: 5693	
+- Optimized Model:5469
+
+<img src="https://raw.githubusercontent.com/montsebenito/Elon_Effect/main/pics/GBpredictions.jpg"
+width="1200">
+
+Interestingly, the model predictions trends and behaviour fit with real data with a preceeding offset that will allow a trader made buy/sell decisions in advance. 
 
 #### Insights and next steps
-This results in a gradient boosting regressor model that predicts a value within a 10% range of the real price. My conclusion is that this study serves as a proof-of-concept identifying a clear link between the attributes and the target. 
+The above resulst in a **gradient boosting regressor model that predicts Bitcoin price within a 12% mean absolute error range. My conclusion is that this study serves as a proof-of-concept identifying a clear link between the attributes and the target.**
+
 In order to significantly improve bitcoin price predictions to convert this project to a viable trading strategy, the following next steps are recommended: 
 - increasing bag of words or adding new sources (i.e Google Analytics searches for keywords).
 - including tweets sentiment analysis as a new feature.
 - time series decomposition and multi-output regression
-
-
-
-
-
 
 
 ### Inspiration:
