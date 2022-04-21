@@ -119,7 +119,7 @@ Overall sales: Basket size
 The choosen model, a Random Forest Regressor with Root Mean Square error of 289 BRL, used the following variables (per importance):
 
 <img src='https://github.com/montsebenito/How_to_Improve_a_Marketplace/blob/main/Olist_saved/Top10featuresBRL.png?raw=true'
-height="900">
+height="700">
 
 A deep-dive within partial dependant plots (looking at the impact of each of the variables individually) confirmed these results. 
 
