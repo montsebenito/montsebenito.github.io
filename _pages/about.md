@@ -10,12 +10,10 @@ header:
 author_profile: true
 ---
 
-<p>Thanks for visiting! </p>
-<p>I would be excited to help with a meaningful data science project by: 
-<ul>
-<li> deep diving on a broad range of complex business questions, </li>
-<li> creatively extracting actionable insights from data in user-centric ways and </li>
-<li> testing new developed hypotesis on how to improve the product. </li>
+
+<p> Engineering: Trained in high-performance tech - solving complex engineering challenges, collaborating accross global teams, and delivering results in one of the most demanding, fast-evolving industries: semiconductors. </p>
+<p> Wonder: Spark a glitch in the system - where creative questions emerge, new hypothesis are tested and strategic transformation is unlocked. </p>
 </ul>
-Let's connect!
+I'm currently open to aligned partnerships - Let's talk.
+This is just the beginning.
 </p>  
