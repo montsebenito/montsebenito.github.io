@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "Hi!"
+title: "Hello world!"
 layout: single
 classes: wide
 
@@ -10,10 +10,9 @@ header:
 author_profile: true
 ---
 
+<p> Trained in high-performance tech, I've solved complex engineering challenges, led global collaborations, and delivered results in one of the most demanding, fast-evolving industries: semiconductors for AI infrastructure. </p>
 
-<p> Engineering: Trained in high-performance tech - solving complex engineering challenges, collaborating accross global teams, and delivering results in one of the most demanding, fast-evolving industries: semiconductors. </p>
-<p> Wonder: Spark a glitch in the system - where creative questions emerge, new hypothesis are tested and strategic transformation is unlocked. </p>
+<p> Now, I turn glitches into growth. Curiosity into strategy. Wonder into robust prototypes. </p>
 
-I'm currently open to aligned partnerships - Let's talk. </p>
-This is just the beginning.
+I'm open to aligned partnerships - let's talk!</p>
   
