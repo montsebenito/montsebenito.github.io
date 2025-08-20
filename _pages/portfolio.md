@@ -9,23 +9,22 @@ classes: wide
 feature_row:
   - image_path: /assets/images/logo-olist.png
     alt: "How to improve a Marketplace?"
-    title: "How would you improve a Marketplace?(HINT: Data)"
-    excerpt: "Are there any products/business segments doing particularly well… or particularly badly? Are Olist new acquired sellers finding what they are looking for? What are the characteristics of the top sellers? What channels are bringing in more top selling sellers?"
+    title: "How would you improve a Marketplace? (HINT: start with Data)"
+    excerpt: "Which products and segments are thriving — and which are struggling? Are newly acquired Olist sellers finding success? What defines the top performers, and which channels are fueling their growth?"
     url: /marketplacesummary/
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/Coinbase_7.jpg
-    alt: "Earn Crypto while Learning by Coinbase"
-    title: "Earn Crypto while Learning by Coinbase"
-    excerpt: "What led the product team to test this feature in the first place? What was the data-driven hypothesis behind? Which metric(s) did they choose for the test?
-How was the test designed?."
+    alt: "Learn Crypto, Earn Crypto: Coinbase’s Bold Product Test"
+    title: "Learn Crypto, Earn Crypto: Coinbase’s Bold Product Test"
+    excerpt: "Coinbase launched ‘Earn Crypto While Learning’ as an experiment. But why?Which data-backed hypothesis were they testing — and what metrics defined success?"
     url: /earncrypto/
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/ElonMuskpic.jpg
-    alt: "Elon Musk, Twitter and Bitcoin price"
-    title: "Elon Musk, Twitter and Bitcoin price"
-    excerpt: "Analysis of the so-called 'Elon Effect': is there a relationship between the content of Elon Musk tweets and Bitcoin price behaviour?"
+    alt: "Elon Musk, Twitter and Bitcoin market"
+    title: "Elon Musk, Twitter and Bitcoin market"
+    excerpt: "An analysis of the so-called ‘Elon Effect’: is there a measurable link between Elon Musk’s tweets and Bitcoin price movements?"
     url: /elonmusk/
     btn_label: "Read More"
     btn_class: "btn--inverse"
